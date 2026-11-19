@@ -155,15 +155,15 @@ window.CONTENT = {
       original: "Untitled%20document%20(1)%20(1).pdf#page=3"
     },
     {
-      id: "m2-ultimate", num: "10", title: "M2 Ultimate Task (Video)",
-      module: "Module 2", type: "Video submission", filter: ["video"], videoId: "Sn2jV5CCj68",
-      summary: "My video submission for the Module 2 Ultimate Task, the culminating activity on effective business writing.",
-      lesson: "Effective business communication is clear, courteous and specific, and it makes the next step obvious to the reader.",
-      role: "Module 2 Ultimate Task submission.",
+      id: "m2-ultimate", num: "10", title: "M2 Ultimate Task: Vocal Edge Promotional Pitch (Video)",
+      module: "Module 2", type: "Video presentation", filter: ["video"], videoId: "Sn2jV5CCj68",
+      summary: "A short promotional pitch for Vocal Edge, an AI-powered wearable speech coach that clips onto a collar. It opens with the problem (speaking too fast, filler words like “um” and “uh,” low vocal energy), presents the product, its real-time silent haptic feedback and speech metrics (rhythm, tone, clarity), names its audience (presentations, pitches, exams, meetings), addresses privacy with offline processing, and ends with a call to action.",
+      lesson: "A persuasive pitch moves in a clear order: problem, solution, key features, reassurance and a specific next step for the audience.",
+      role: "Individual output: I created and presented this pitch myself.",
       reflection: {
-        skill: "Module 2 reinforced putting the main point first, keeping language clear and courteous, and revising before submitting.",
+        skill: "This task showed me how to compress an idea into a short pitch: lead with the problem the audience cares about, keep each feature to one clear point, and finish with a direct call to action.",
         feedback: "No instructor feedback was recorded for this task.",
-        business: "Clear, courteous and actionable communication helps readers decide and act quickly, in emails, reports and client conversations."
+        business: "Entrepreneurs often get only a minute to win attention. A pitch that names the problem, shows the benefit and tells people exactly what to do next is the kind of clear, actionable communication Module 2 teaches."
       },
       original: ""
     }
