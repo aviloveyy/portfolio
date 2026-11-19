@@ -34,12 +34,6 @@ window.CONTENT = {
         "Delivery and design matter as much as accuracy."
       ],
       application: "Founders and professionals must explain complicated problems to clients, coworkers, investors and the public without losing attention. A familiar example, such as a ₱1,000 grocery run, beats jargon."
-    },
-    {
-      id: "more", label: "Add more", title: "Additional weeks / finals",
-      placeholder: true,
-      concepts: ["TODO: add any lesson or week from Canvas not covered by Modules 1–3, with its real title."],
-      application: "TODO: one sentence on how it applies to business or entrepreneurship."
     }
   ],
   works: [
@@ -54,7 +48,7 @@ window.CONTENT = {
         feedback: "TODO: add instructor feedback for this task if any, and how you applied it.",
         business: "A message can be misunderstood even with no intent to offend. I would review images, marketing messages and public-facing material from several audiences' perspectives before publishing."
       },
-      original: ""
+      original: "M1%20Checkpoint%20Activity_Agbanlog%20(1)%20(1).pdf"
     },
     {
       id: "m1-body-language", num: "02", title: "M1 During Task: Body Language Across Cultures",
@@ -67,7 +61,7 @@ window.CONTENT = {
         feedback: "TODO: add feedback if any.",
         business: "With international partners I want to avoid quick assumptions about intent, and ask for clarification instead."
       },
-      original: ""
+      original: "M1%20L2%20During%20Task_Agbanlog.pdf"
     },
     {
       id: "cultural-values", num: "03", title: "Cultural Values: Filipino and Zulu Comparison",
@@ -132,7 +126,7 @@ window.CONTENT = {
         feedback: "TODO: add feedback on the outline if any.",
         business: "Knowledge is most useful when others can understand and remember it. Explaining economics plainly is a core skill for any founder."
       },
-      original: ""
+      original: "M3%20Initial%20Task_Agbanlog%20(1).pdf"
     },
     {
       id: "m3-video", num: "08", title: "Main Task – ADVCOM: Inflation and Purchasing Power (Video)",

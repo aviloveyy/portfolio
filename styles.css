@@ -74,6 +74,7 @@ a{color:inherit}
 .chip[aria-pressed=true],.tab[aria-selected=true]{background:var(--ink);color:#fff}
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
 .card{background:#fff;border:0;border-radius:var(--r);padding:24px;text-align:left;cursor:pointer;font:inherit;color:inherit;display:flex;flex-direction:column;gap:10px;transition:transform .3s,box-shadow .3s}
+.card[hidden]{display:none}
 .card:hover{transform:translateY(-6px);box-shadow:0 20px 40px #0000001a}
 .card .num{font:700 2.6rem var(--f);letter-spacing:-.06em;line-height:1;color:transparent;-webkit-text-stroke:1.5px #00000050}
 .card h3{font-size:1.25rem;margin:0}
