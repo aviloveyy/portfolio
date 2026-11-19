@@ -58,7 +58,7 @@ window.CONTENT = {
       role: "Individual output: written entirely by me.",
       reflection: {
         skill: "Before this lesson I might have relied on familiar gestures as if everyone understood them the same way. Active listening also means observing nonverbal cues carefully.",
-        feedback: "No instructor feedback was given for this task.",
+        feedback: "The instructor's feedback was “Good Job.”",
         business: "With international partners I want to avoid quick assumptions about intent, and ask for clarification instead."
       },
       original: "M1%20L2%20During%20Task_Agbanlog.pdf"
@@ -74,7 +74,7 @@ window.CONTENT = {
         feedback: "The instructor commended the comparison but cautioned against broad labels such as “patriarchal” and “warrior-heritage.” My proposed revision is in the Growth section.",
         business: "Even well-intentioned descriptions can flatten diverse communities. This matters when describing customers and colleagues from other backgrounds."
       },
-      original: ""
+      original: "Untitled%20document%20(1)%20(1).pdf#page=1"
     },
     {
       id: "encanto", num: "04", title: "Encanto: Collectivism and Community",
@@ -84,10 +84,10 @@ window.CONTENT = {
       role: "Individual output: written entirely by me.",
       reflection: {
         skill: "Connecting a concept to recognizable situations helped me explain it more clearly.",
-        feedback: "No instructor feedback was given for this task.",
+        feedback: "The instructor's feedback was “Keep up the spirit!”",
         business: "Teamwork depends on paying attention to others' needs, but responsibility can bring pressure. Good teams consider the wellbeing of the individual within the group. Film: Encanto (Disney, 2021)."
       },
-      original: ""
+      original: "Untitled%20document%20(1)%20(1).pdf#page=2"
     },
     {
       id: "m2-checkpoint", num: "05", title: "M2 Checkpoint: What Makes Business Writing Effective?",
@@ -100,7 +100,7 @@ window.CONTENT = {
         feedback: "No instructor feedback was given for this task.",
         business: "An effective message respects the reader's time and makes its purpose obvious, which matters in emails, reports and client correspondence."
       },
-      original: ""
+      original: "Untitled%20document%20(1)%20(1).pdf#page=2"
     },
     {
       id: "m2-group", num: "06", title: "M2 During Task: Evaluating a Feedback Email",
@@ -113,7 +113,7 @@ window.CONTENT = {
         feedback: "No instructor feedback was given for this task.",
         business: "A polite email can still fail to guide action. I would carry these principles into team feedback, performance reviews and client communications."
       },
-      original: ""
+      original: "Grp%201%20-%20M2%20During%20Task.pdf"
     },
     {
       id: "m3-outline", num: "07", title: "M3 Initial Task: Informative Speech Outline on Inflation",
@@ -136,21 +136,34 @@ window.CONTENT = {
       role: "Individual output: I wrote and delivered this presentation myself.",
       reflection: {
         skill: "Preparing this talk taught me that delivery matters as much as accuracy. Using a familiar example, a student's ₱200 allowance, made a difficult topic easier to follow, and I learned to focus on pacing and clear transitions between ideas.",
-        feedback: "See the next entry for the instructor's presentation feedback.",
+        feedback: "The next entry, the M3 Checkpoint, records the presentation principles I want to apply next time.",
         business: "Explaining a complex problem with everyday examples is exactly how a founder pitches to customers and investors."
       },
       original: ""
     },
     {
-      id: "m3-feedback", num: "09", title: "M3 Presentation Feedback: Storytelling and Audience Engagement",
-      module: "Module 3", type: "Instructor feedback", filter: ["video"],
-      summary: "Instructor feedback gives three principles: reduce text-heavy slides, engage listeners with questions and storytelling, and structure explanations as problem, cause, possible solutions and recommended solution.",
+      id: "m3-checkpoint", num: "09", title: "M3 Checkpoint: Storytelling and Audience Engagement",
+      module: "Module 3", type: "Individual written summary", filter: ["written"],
+      summary: "Summarizes Mark Robinson's talk on presenting, which gives three principles: reduce text-heavy slides, engage listeners with questions and storytelling, and structure explanations as problem, cause, possible solutions and recommended solution.",
       lesson: "Presentations are designed for listeners, not scripts pasted onto slides.",
-      role: "Individual feedback on my submitted presentation, the Main Task video above.",
+      role: "Individual output: written entirely by me.",
       reflection: {
         skill: "Accuracy is only one part of effectiveness. Even important information loses its audience when slides are crowded or there is no reason to listen.",
-        feedback: "My next version would use fewer words on screen, stronger spoken transitions, audience questions and a deliberate problem-to-solution structure. (Proposed, not yet delivered.)",
+        feedback: "No instructor feedback was recorded for this checkpoint. Applying it, my next version would use fewer words on screen, stronger spoken transitions, audience questions and a deliberate problem-to-solution structure. (Proposed, not yet delivered.)",
         business: "Pitches succeed when they are built around the listener's questions, not the speaker's notes."
+      },
+      original: "Untitled%20document%20(1)%20(1).pdf#page=3"
+    },
+    {
+      id: "m2-ultimate", num: "10", title: "M2 Ultimate Task (Video)",
+      module: "Module 2", type: "Video submission", filter: ["video"], videoId: "Sn2jV5CCj68",
+      summary: "My video submission for the Module 2 Ultimate Task, the culminating activity on effective business writing.",
+      lesson: "Effective business communication is clear, courteous and specific, and it makes the next step obvious to the reader.",
+      role: "Module 2 Ultimate Task submission.",
+      reflection: {
+        skill: "Module 2 reinforced putting the main point first, keeping language clear and courteous, and revising before submitting.",
+        feedback: "No instructor feedback was recorded for this task.",
+        business: "Clear, courteous and actionable communication helps readers decide and act quickly, in emails, reports and client conversations."
       },
       original: ""
     }

@@ -3,9 +3,9 @@
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var esc = function (s) { var d = document.createElement("div"); d.textContent = s == null ? "" : s; return d.innerHTML; };
 
-  function videoEmbed() {
-    return '<iframe src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(C.videoId) +
-      '" title="Main Task - ADVCOM presentation" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+  function videoEmbed(id) {
+    return '<iframe src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(id || C.videoId) +
+      '" title="ADVCOM video presentation" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
   }
   $("#hero-video").innerHTML = '<iframe src="' + esc(C.cv) + '" title="Curriculum vitae of ' + esc(C.student) + '"></iframe>';
   $("#hero-cv-link").href = C.cv;
@@ -42,9 +42,9 @@
   /* Modal */
   var modal = $("#modal"), box = $(".modal-box"), lastFocus = null;
   function preview(w) {
-    if (w.video) return '<div class="video">' + videoEmbed() + "</div>";
+    if (w.video || w.videoId) return '<div class="video">' + videoEmbed(w.videoId) + "</div>";
     if (!w.original) return "";
-    if (/\.pdf$/i.test(w.original)) return '<div class="preview"><iframe src="' + esc(w.original) + '" title="Original submission"></iframe><p><a href="' + esc(w.original) + '">View original</a></p></div>';
+    if (/\.pdf(#.*)?$/i.test(w.original)) return '<div class="preview"><iframe src="' + esc(w.original) + '" title="Original submission"></iframe><p><a href="' + esc(w.original) + '">View original</a></p></div>';
     return '<div class="preview"><img src="' + esc(w.original) + '" alt="Original submission for ' + esc(w.title) + '"><p><a href="' + esc(w.original) + '">View original</a></p></div>';
   }
   function openModal(id) {
