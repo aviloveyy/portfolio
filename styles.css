@@ -49,6 +49,8 @@ a{color:inherit}
 .video-card{margin:0;background:var(--ink);color:#fff;padding:14px;border-radius:var(--r)}
 .video-card figcaption{font:500 1rem var(--f);padding:2px 6px 12px}
 .video{aspect-ratio:16/9;background:#000;border-radius:14px;overflow:hidden}.video iframe{width:100%;height:100%;border:0}
+.cv-embed{height:min(70vh,620px);min-height:380px;background:#fff;border-radius:14px;overflow:hidden}.cv-embed iframe{width:100%;height:100%;border:0}
+.cv-link{font-size:.9rem;margin:12px 6px 2px}.cv-link a{color:inherit;text-decoration:underline}
 .note{font-size:.76rem;color:#aaa;margin:12px 6px 2px}code{background:#ffffff22;padding:0 4px;border-radius:4px}
 .values{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:64px}
 .values div{border-radius:var(--r);padding:26px 26px 40px}

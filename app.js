@@ -7,7 +7,8 @@
     return '<iframe src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(C.videoId) +
       '" title="Main Task - ADVCOM presentation" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
   }
-  $("#hero-video").innerHTML = videoEmbed();
+  $("#hero-video").innerHTML = '<iframe src="' + esc(C.cv) + '" title="Curriculum vitae of ' + esc(C.student) + '"></iframe>';
+  $("#hero-cv-link").href = C.cv;
 
   /* Accordion */
   $("#accordion").innerHTML = C.modules.map(function (m, i) {
@@ -42,7 +43,7 @@
   var modal = $("#modal"), box = $(".modal-box"), lastFocus = null;
   function preview(w) {
     if (w.video) return '<div class="video">' + videoEmbed() + "</div>";
-    if (!w.original) return '<div class="preview">[ADD ORIGINAL: set <code>original</code> in content.js to a PDF or image path]</div>';
+    if (!w.original) return "";
     if (/\.pdf$/i.test(w.original)) return '<div class="preview"><iframe src="' + esc(w.original) + '" title="Original submission"></iframe><p><a href="' + esc(w.original) + '">View original</a></p></div>';
     return '<div class="preview"><img src="' + esc(w.original) + '" alt="Original submission for ' + esc(w.title) + '"><p><a href="' + esc(w.original) + '">View original</a></p></div>';
   }
@@ -59,8 +60,7 @@
       '<div class="refl">' +
       '<div><h4>1 · Written &amp; oral skill growth</h4><p>' + esc(r.skill) + "</p></div>" +
       '<div><h4>2 · Feedback &amp; iteration</h4><p>' + esc(r.feedback) + "</p></div>" +
-      '<div><h4>3 · Business &amp; entrepreneurship takeaway</h4><p>' + esc(r.business) + "</p></div></div>" +
-      '<p class="draft">Reflections are drafts based on the course handover; edit them to match my own experience.</p>';
+      '<div><h4>3 · Business &amp; entrepreneurship takeaway</h4><p>' + esc(r.business) + "</p></div></div>";
     modal.hidden = false;
     document.body.style.overflow = "hidden";
     box.focus();

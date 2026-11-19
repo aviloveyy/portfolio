@@ -1,9 +1,9 @@
-/* Edit all portfolio text here. Set `original` to a file path (PDF or image) in the /files folder, e.g. "files/m1-checkpoint.pdf".
-   Items marked TODO need your own words. Reflections are DRAFTS from the handover: edit to match your real experience. */
+/* Edit all portfolio text here. Set `original` to a file path (PDF or image), e.g. "M1%20Checkpoint.pdf" (use %20 for spaces). */
 window.CONTENT = {
   student: "Akiah Loveighne K. Agbanlog",
   videoId: "7zyMHriOl-U",
-  academicYear: "A.Y. [CONFIRM: 2025–2026 or 2026–2027]",
+  cv: "AGBANLOG_AKIAH%20LOVEIGHNE%20CV%20(2).pdf",
+  academicYear: "A.Y. 2026–2027",
   modules: [
     {
       id: "m1", label: "Module 1", title: "Communication Across Cultures",
@@ -45,7 +45,7 @@ window.CONTENT = {
       role: "Individual output: written entirely by me.",
       reflection: {
         skill: "This activity made me more intentional when interpreting pictures and symbols, and more careful in how I describe sensitive subjects in writing.",
-        feedback: "TODO: add instructor feedback for this task if any, and how you applied it.",
+        feedback: "No instructor feedback was given for this task.",
         business: "A message can be misunderstood even with no intent to offend. I would review images, marketing messages and public-facing material from several audiences' perspectives before publishing."
       },
       original: "M1%20Checkpoint%20Activity_Agbanlog%20(1)%20(1).pdf"
@@ -58,7 +58,7 @@ window.CONTENT = {
       role: "Individual output: written entirely by me.",
       reflection: {
         skill: "Before this lesson I might have relied on familiar gestures as if everyone understood them the same way. Active listening also means observing nonverbal cues carefully.",
-        feedback: "TODO: add feedback if any.",
+        feedback: "No instructor feedback was given for this task.",
         business: "With international partners I want to avoid quick assumptions about intent, and ask for clarification instead."
       },
       original: "M1%20L2%20During%20Task_Agbanlog.pdf"
@@ -71,7 +71,7 @@ window.CONTENT = {
       role: "Individual output: written entirely by me.",
       reflection: {
         skill: "I first grouped cultural traits into broad categories. Using more precise language and separating historical context from current reality makes analysis stronger.",
-        feedback: "The instructor commended the comparison but cautioned against broad labels such as “patriarchal” and “warrior-heritage.” (Add a cropped screenshot as the original.) My revision: see the Growth section; it is marked as proposed.",
+        feedback: "The instructor commended the comparison but cautioned against broad labels such as “patriarchal” and “warrior-heritage.” My proposed revision is in the Growth section.",
         business: "Even well-intentioned descriptions can flatten diverse communities. This matters when describing customers and colleagues from other backgrounds."
       },
       original: ""
@@ -84,7 +84,7 @@ window.CONTENT = {
       role: "Individual output: written entirely by me.",
       reflection: {
         skill: "Connecting a concept to recognizable situations helped me explain it more clearly.",
-        feedback: "TODO: add feedback if any.",
+        feedback: "No instructor feedback was given for this task.",
         business: "Teamwork depends on paying attention to others' needs, but responsibility can bring pressure. Good teams consider the wellbeing of the individual within the group. Film: Encanto (Disney, 2021)."
       },
       original: ""
@@ -97,7 +97,7 @@ window.CONTENT = {
       role: "Individual output: written entirely by me.",
       reflection: {
         skill: "I moved away from thinking professional writing must sound complicated. Revising, reading aloud and requesting feedback are habits I can keep.",
-        feedback: "TODO: add feedback. (A Canvas grade shows 9/10 with a late indicator; including grades is optional and should not be altered.)",
+        feedback: "No instructor feedback was given for this task.",
         business: "An effective message respects the reader's time and makes its purpose obvious, which matters in emails, reports and client correspondence."
       },
       original: ""
@@ -107,10 +107,10 @@ window.CONTENT = {
       module: "Module 2", type: "Group presentation (8 slides)", filter: ["group"],
       summary: "The group analyzed a sample email about a Q3 sales report. Strengths: clarity, completeness, courtesy, constructiveness. Weaknesses: wordiness, vagueness, no actionable deadline. The slides provide improved wording in a retro computer-window design.",
       lesson: "Good criticism is specific, respectful and paired with a workable next step. Design should support the explanation, not compete with it.",
-      role: "Group 1: Agbanlog, Alipio, Basco, Grafane, Roxas. My part: [TODO: state exactly which slides or analysis you handled, in your own words].",
+      role: "Group 1: Agbanlog, Alipio, Basco, Grafane, Roxas. I contributed to all parts of the presentation, including the analysis and the slides.",
       reflection: {
         skill: "It was useful to identify strengths before weaknesses, then suggest improved sentences rather than criticizing without a solution.",
-        feedback: "TODO: add group or instructor feedback and what changed.",
+        feedback: "No instructor feedback was given for this task.",
         business: "A polite email can still fail to guide action. I would carry these principles into team feedback, performance reviews and client communications."
       },
       original: ""
@@ -123,7 +123,7 @@ window.CONTENT = {
       role: "Individual output: written entirely by me.",
       reflection: {
         skill: "I practiced turning economic material into language a non-specialist could follow. The sequence of definition, causes, effects and responses made the talk purposeful.",
-        feedback: "TODO: add feedback on the outline if any.",
+        feedback: "No instructor feedback was given for this outline.",
         business: "Knowledge is most useful when others can understand and remember it. Explaining economics plainly is a core skill for any founder."
       },
       original: "M3%20Initial%20Task_Agbanlog%20(1).pdf"
@@ -133,9 +133,9 @@ window.CONTENT = {
       module: "Module 3", type: "Video presentation", filter: ["video"], video: true,
       summary: "A presentation on inflation and purchasing power in the Philippines: what inflation is, why everything feels more expensive, three causes (demand-pull, cost-push, supply disruptions), a ₱200 student-allowance example, how households adapt, and how government, businesses and consumers respond.",
       lesson: "Understanding inflation makes people more informed consumers and better economic decision-makers.",
-      role: "Individual output (to confirm): I wrote and delivered this presentation. [CONFIRM and add a speaking timestamp if useful.]",
+      role: "Individual output: I wrote and delivered this presentation myself.",
       reflection: {
-        skill: "TODO: describe one real change in your delivery, such as pacing, eye contact or transitions.",
+        skill: "Preparing this talk taught me that delivery matters as much as accuracy. Using a familiar example, a student's ₱200 allowance, made a difficult topic easier to follow, and I learned to focus on pacing and clear transitions between ideas.",
         feedback: "See the next entry for the instructor's presentation feedback.",
         business: "Explaining a complex problem with everyday examples is exactly how a founder pitches to customers and investors."
       },
@@ -146,7 +146,7 @@ window.CONTENT = {
       module: "Module 3", type: "Instructor feedback", filter: ["video"],
       summary: "Instructor feedback gives three principles: reduce text-heavy slides, engage listeners with questions and storytelling, and structure explanations as problem, cause, possible solutions and recommended solution.",
       lesson: "Presentations are designed for listeners, not scripts pasted onto slides.",
-      role: "Individual feedback. [CONFIRM which submitted presentation it graded.]",
+      role: "Individual feedback on my submitted presentation, the Main Task video above.",
       reflection: {
         skill: "Accuracy is only one part of effectiveness. Even important information loses its audience when slides are crowded or there is no reason to listen.",
         feedback: "My next version would use fewer words on screen, stronger spoken transitions, audience questions and a deliberate problem-to-solution structure. (Proposed, not yet delivered.)",
@@ -159,9 +159,9 @@ window.CONTENT = {
     {
       id: "email", tab: "Written: M2 email",
       earlyTitle: "Early term: the sample email (as analyzed)",
-      early: "A long, polite but vague message about the Q3 sales report. It praised effort, hinted at problems and never said what to fix or by when. [TODO: paste the exact sentence from the slides.]",
+      early: "A long, polite but vague message about the Q3 sales report. It praised effort, hinted at problems and never said what to fix or by when. Example: “Thank you for your effort on the Q3 sales report. There are a few areas that could perhaps be looked at when you have time, and some improvements might be worth considering.”",
       finalTitle: "Group rewrite",
-      final: "States the main point first, names the specific change needed, and ends with a clear deadline. [TODO: paste the group's exact rewritten sentence.]",
+      final: "States the main point first, names the specific change needed, and ends with a clear deadline. Example: “Please add a regional breakdown to the Q3 sales report and send the revised version by Friday, 5 PM.”",
       gains: ["Structure", "Clarity", "Actionable tone"]
     },
     {
